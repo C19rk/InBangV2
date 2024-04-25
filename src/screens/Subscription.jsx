@@ -154,7 +154,7 @@ function Subscription() {
           }}
         >
           <Link
-            to="/dashboard"
+            to="/login"
             style={{
               position: "absolute",
               textDecoration: "none",

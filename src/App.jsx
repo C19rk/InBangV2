@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import "./App.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import AboutUs from "./screens/AboutUs";
@@ -10,7 +10,6 @@ import Login from "./screens/Login";
 import Movie from "./screens/Movie";
 import Navigation from "./screens/Navigation";
 import PrivacyPolicy from "./screens/PrivacyPolicy";
-import Products from "./screens/Products";
 import Profile from "./screens/Profile";
 import Registration from "./screens/Registration";
 import Subscription from "./screens/Subscription";

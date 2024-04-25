@@ -20,7 +20,7 @@ function Login() {
   const location = useLocation();
   const redirect = location.search
     ? location.search.split("=")[1]
-    : "/subscription";
+    : "/dashboard";
   const userLogin = useSelector((state) => state.userLogin);
   const { error, loading, userInfo } = userLogin;
 

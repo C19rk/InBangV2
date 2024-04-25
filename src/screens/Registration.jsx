@@ -42,7 +42,7 @@ export const Registration = () => {
         console.log("may error", error.detail);
       }
       if (password === confirmPassword && !error) {
-        navigate("/login");
+        navigate("/subscription");
       }
     } catch (error) {
       throw new Error(error.detail);
